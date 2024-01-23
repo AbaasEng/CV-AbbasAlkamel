@@ -446,12 +446,6 @@ span {
     background: var(--second-bg-color);
 }
 
-.skills h2 {
-    display: inline-block;
-    right: 24%;
-    transform: translateX(-50%);
-}
-
 .skills .skills-row {
     display: flex;
     flex-wrap: wrap;
@@ -562,12 +556,6 @@ span {
 .contact {
     min-height: auto;
     padding-bottom: 7rem;
-}
-
-.contact h2 {
-    display: inline-block;
-    right: 29%;
-    transform: translateX(-50%);
 }
 
 .contact form {
