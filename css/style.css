@@ -738,7 +738,7 @@ section:nth-child(odd) .animate.scroll,
 
 @media (max-width: 1200px) {
     html {
-        font-size: 55%;
+        font-size: 90%;
     }
 }
 
@@ -748,6 +748,7 @@ section:nth-child(odd) .animate.scroll,
     }
     section {
         padding: 10rem 4% 2rem;
+        font-size: 56px;
     }
     .home {
         padding: 0 4%;
@@ -760,6 +761,9 @@ section:nth-child(odd) .animate.scroll,
 @media (max-width: 850px) {
     .animate.home-img {
         width: 55%;
+    }
+    html {
+        font-size: 80%;
     }
 }
 
@@ -821,7 +825,7 @@ section:nth-child(odd) .animate.scroll,
 
 @media (max-width: 520px) {
     html {
-        font-size: 50%;
+        font-size: 52%;
     }
     .home-content h1 {
         display: flex;
