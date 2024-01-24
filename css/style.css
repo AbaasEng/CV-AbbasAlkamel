@@ -54,7 +54,7 @@ body {
 }
 
 .navbar {
-    position: absolute;
+    position: relative;
 }
 
 .navbar a {
@@ -80,7 +80,7 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 10rem 9% 2rem;
+    padding: 14rem 9% 2rem;
 }
 
 .home {
@@ -134,7 +134,7 @@ section {
     content: '';
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     width: 0;
     height: 100%;
     border-left: 2px solid var(--main-color);
@@ -902,7 +902,7 @@ section:nth-child(odd) .animate.scroll,
 
 @keyframes aboutSpinner {
     100% {
-        transform: translate(-50%, -50%) rotate(306deg);
+        transform: translate(-50%, -50%) rotate(360deg);
     }
 }
 
