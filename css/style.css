@@ -54,7 +54,7 @@ body {
 }
 
 .navbar {
-    position: relative;
+    position: absolute;
 }
 
 .navbar a {
@@ -80,7 +80,7 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 14rem 9% 2rem;
+    padding: 10rem 9% 2rem;
 }
 
 .home {
@@ -134,7 +134,7 @@ section {
     content: '';
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 0;
     height: 100%;
     border-left: 2px solid var(--main-color);
@@ -526,7 +526,7 @@ span {
 }
 
 .skills-columu:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
-    width: 90%;
+    width: 75%;
 }
 
 .skills-columu:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
@@ -534,23 +534,23 @@ span {
 }
 
 .skills-columu:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
-    width: 70%;
+    width: 85%;
 }
 
 .skills-columu:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
-    width: 90%;
-}
-
-.skills-columu:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
     width: 80%;
 }
 
+.skills-columu:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
+    width: 90%;
+}
+
 .skills-columu:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
-    width: 70%;
+    width: 85%;
 }
 
 .skills-columu:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
-    width: 60%;
+    width: 95%;
 }
 
 .contact {
@@ -738,7 +738,7 @@ section:nth-child(odd) .animate.scroll,
 
 @media (max-width: 1200px) {
     html {
-        font-size: 90%;
+        font-size: 55%;
     }
 }
 
@@ -748,7 +748,6 @@ section:nth-child(odd) .animate.scroll,
     }
     section {
         padding: 10rem 4% 2rem;
-        font-size: 56px;
     }
     .home {
         padding: 0 4%;
@@ -761,9 +760,6 @@ section:nth-child(odd) .animate.scroll,
 @media (max-width: 850px) {
     .animate.home-img {
         width: 55%;
-    }
-    html {
-        font-size: 80%;
     }
 }
 
@@ -825,7 +821,7 @@ section:nth-child(odd) .animate.scroll,
 
 @media (max-width: 520px) {
     html {
-        font-size: 52%;
+        font-size: 50%;
     }
     .home-content h1 {
         display: flex;
@@ -906,7 +902,7 @@ section:nth-child(odd) .animate.scroll,
 
 @keyframes aboutSpinner {
     100% {
-        transform: translate(-50%, -50%) rotate(360deg);
+        transform: translate(-50%, -50%) rotate(306deg);
     }
 }
 

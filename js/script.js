@@ -51,3 +51,15 @@ window.onscroll = () => {
 
 
 }
+
+function sendMail(){
+    let parms = {
+        name : document.getElementById("name").value,
+        email : document.getElementById("email").value,
+        number : document.getElementById("number").value,
+        address : document.getElementById("address").value,
+        nots : document.getElementById("nots").value,
+
+    }
+    emailjs.send("service_evsxvjc","template_qhwwyzy",parms).then(alert("Email sent!!"))
+}
