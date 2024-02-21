@@ -18,7 +18,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 67.5%;
     overflow: ;
 }
 
@@ -743,7 +743,7 @@ section:nth-child(odd) .animate.scroll,
 
 @media (max-width: 1200px) {
     html {
-        font-size: 60%;
+        font-size: 68%;
     }
 }
 
