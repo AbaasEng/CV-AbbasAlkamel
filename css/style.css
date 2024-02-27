@@ -292,7 +292,7 @@ section {
 }
 
 span {
-    color: var(--text-color);
+    color: var(--main-color);
 }
 
 .about-img {
@@ -561,7 +561,7 @@ span {
 }
 
 .contact {
-    min-height: auto;
+    
     padding-bottom: 7rem;
 }
 
